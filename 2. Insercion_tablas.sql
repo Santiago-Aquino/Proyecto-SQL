@@ -1,0 +1,172 @@
+use ascensores_aquino;
+
+insert into clientes (id_cliente, nombre_cliente, direccion, cuil, telefono, descripcion)
+values              (1, 'Amenabar', 'Amenabar 844', 30661068619, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+					(2, 'Araoz', 'Araoz 2938', 30574620224, 47456723, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+					(3, 'Arcos', 'Arcos 2833', 30711168415, 47446835, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+					(4, 'Arribeños', 'Arribeños 1212', 30599544190, 47446881, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+					(5, 'Balbin', 'Av. Balbin 2711', 30579917136, 47446902, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+					(6, 'Billinghurts', 'Billinghurts 1636', 30539224855, 47446419, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (7, 'Conde', 'Conde 1972', 30549861233, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (8, 'Fondo de la legua', 'Fonde de la legua 1139', 30709980722, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (9, 'Gorostiaga', 'Gorostiaga 2366', 30522811900, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (10, 'General paz', 'General paz 450', 30626126924, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (11, 'Humboldt', 'Humboldt 1509', 33715947949, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (12, 'Jose Hernandez 2194', 'Jose Hernandez 2194', 33517120869, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (13, 'Jose Hernandez 1889', 'Jose Hernandez 1889', 30521314644, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (14, 'J. F segui', 'Segui 4460', 30628532806, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (15, 'Juncal', 'Juncal 1670', 30639259060, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (16, 'Juramento 2714', 'Juramento 2714', 30638545272, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (17, 'Juramento 2790', 'Juramento 2790', 30591363707, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (18, 'Libertador', 'Libertador 5068', 30629791198, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (19, 'Jockey club', 'Marquez 740', 30527990773, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (20, 'Moldes', 'Moldes 1896', 33538676859, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (21, 'Monroe', 'Monroe 2650', 30711510512, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (22, 'Nicaragua', 'Nicaragua 5544', 30711379254, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (23, 'Obligado 1808', 'Obligado 1808', 30708420766, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (24, 'Obligado 2561', 'Obligado 2561', 30545457918, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (25, 'Obligado 2539', 'Obligado 2539', 34651282111, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (26, 'Ocampo', 'Ocampo 2612', 30546813874, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (27, 'Villanueva', 'Villanueva 1369', 33598714229, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (28, 'O Higgins 1695', 'O Higgins 1695', 30540149506, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (29, 'Olazabal', 'Olazabal 2815', 30621439452, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (30, 'O higgins 1845', 'O higgins 1845', 30547609529, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (31, 'Rep. de la india', 'Rep. de la india 3107', 33523115729, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (32, 'Sucre 2004', 'Sucre 2004', 30547488934, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (33, 'Sucre 2126', 'Sucre 2126', 30541218439, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (34, 'Sucre 3267', 'Sucre 3267', 30709627631, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (35, 'Sucre 2483', 'Sucre 2483', 30607405138, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (36, 'Zabala', 'Zabala 2173', 30632853544, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (37, '3 de febrero 1483', '3 de febrero 1483', 33547432709, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo'),
+                    (38, '3 de febrero 1797', '3 de febrero 1797', 30600260916, 47446894, 'Este es un edificio ubicado en belgrano trabajando con nosotros hace mucho tiempo');
+
+
+insert into receptores (id_receptor, nombre_receptor, numero_receptor, descripcion)
+values					(1,'Ferreteria corrientes', 47447389, 'Esta es una ferreteria de confianza donde compramos productos para nuestros arreglos'),
+						(2,'Viltec', 47457333, 'Esta es otra ferreteria, pero tambien cuenta con productos de ascensores mas especificos'),
+                        (3,'Sacra', 47469112, 'Esta es otra ferreteria, pero tambien cuenta con productos de ascensores mas especificos'),
+                        (4,'Repuestos ascensores', 4748793, 'Aqui podemos encontrar cualquier repuesto de ascensor para realizar nuestros trabajos'),
+                        (5,'Inot', 119367823, 'Esta es otra ferreteria, pero tambien cuenta con productos de ascensores mas especificos'),
+                        (6,'Fabricio', 1542091273, 'Esta persona es de confianza, la cual nos provee de respuestos, lamparas de ascensores y todo tipo de producto que nos pueda servir'),
+                        (7,'Osvaldo', 1149385726, 'Esta persona es de confianza, la cual nos provee de respuestos, lamparas de ascensores y todo tipo de producto que nos pueda servir'),
+                        (8,'Ferretetia Belgrano', 1148473467, 'Esta es una ferreteria de confianza donde compramos productos para nuestros arreglos'),
+                        (9,'Miguel', 1583950473, 'Esta persona es de confianza, la cual nos provee de respuestos, lamparas de ascensores y todo tipo de producto que nos pueda servir'),
+                        (10,'Roberto', 1136475849, 'Esta persona es de confianza, la cual nos provee de respuestos, lamparas de ascensores y todo tipo de producto que nos pueda servir');
+                  
+                  
+insert into fechas_bonos (id_fecha, fecha_bono)
+values				    (1,'2022-10-14'),
+                        (2,'2022-09-13'),
+                        (3,'2022-08-12'),
+                        (4,'2022-07-01'),
+                        (5,'2022-06-01'),
+                        (6,'2022-05-01'),
+                        (7,'2022-04-17'),
+                        (8,'2022-03-15'),
+                        (9,'2022-02-01'),
+                        (10,'2022-01-01'),
+                        (11,'2021-12-01'),
+                        (12,'2021-11-01'),
+                        (13,'2021-10-07'),
+                        (14,'2021-09-02'),
+                        (15,'2021-08-03'),
+                        (16,'2022-09-03'),
+                        (17,'2022-10-03'),
+                        (18,'2022-11-03');
+
+
+                    
+insert into fechas_arreglos (id_fecha, fecha_arreglo)
+values				        (1,'2022-10-05'),
+                            (2,'2022-09-01'),
+                            (3,'2022-08-01'),
+                            (4,'2022-07-11'),
+                            (5,'2022-06-11'),
+                            (6,'2022-05-01'),
+                            (7,'2022-04-01'),
+                            (8,'2022-03-12'),
+                            (9,'2022-02-15'),
+                            (10,'2022-01-14'),
+                            (11,'2021-12-01'),
+                            (12,'2021-11-18'),
+                            (13,'2021-10-10'),
+                            (14,'2021-09-09'),
+                            (15,'2021-08-02'),
+                            (16,'2022-09-02'),
+                            (17,'2022-10-02'),
+                            (18,'2022-11-02');
+
+
+insert into fechas_gastos (id_fecha, fecha_gasto)
+values				    (1,'2022-10-01'),
+                        (2,'2022-09-06'),
+                        (3,'2022-08-07'),
+                        (4,'2022-07-11'),
+                        (5,'2022-06-17'),
+                        (6,'2022-05-06'),
+                        (7,'2022-04-08'),
+                        (8,'2022-03-12'),
+                        (9,'2022-02-01'),
+                        (10,'2022-01-01'),
+                        (11,'2021-12-01'),
+                        (12,'2021-11-01'),
+                        (13,'2021-10-01'),
+                        (14,'2021-09-12'),
+                        (15,'2021-08-05'),
+                        (16,'2022-09-05'),
+                        (17,'2022-10-05'),
+                        (18,'2022-11-05');
+
+
+insert into pagos_arreglos (id_pago_arreglo, precios, tipo_de_arreglo, nombre_cliente, id_cliente, id_fecha, descripcion)
+values						(1, 41500, 'Cambio de motor', 'Nicaragua', 22, 1, 'Hicimos un cambio de motor en el ascensor por fallos de este.'),
+							(2, 33200, 'Cambio puerta cabina', 'Amenabar', 1, 2, 'Hicimos un cambio de la puerta de cabina del ascensor para modernizar el mismo.'),
+                            (3, 41500, 'Cambio de motor', 'Araoz', 2, 3, 'Hicimos un cambio de motor en el ascensor por fallos de este.'),
+                            (4, 33200, 'Cambio puerta cabina', 'Arcos', 3, 4, 'Hicimos un cambio de la puerta de cabina del ascensor para modernizar el mismo.'),
+                            (5, 10000, 'Cambio de cinta de freno', 'Jokcey club', 19, 5, 'Hicimos un cambio de la cinta de freno por desgaste.'),
+                            (6, 41500, 'Cambio de motor', 'Zabala', 36, 6, 'Hicimos un cambio de motor en el ascensor por fallos de este.'),
+                            (7, 33200, 'Cambio puerta cabina', 'Sucre 2004', 32, 7, 'Hicimos un cambio de la puerta de cabina del ascensor para modernizar el mismo.'),
+                            (8, 41500, 'Cambio de motor', 'Ocampo', 26, 8, 'Hicimos un cambio de motor en el ascensor por fallos de este.'),
+                            (9, 10000, 'Cambio de cinta de freno', 'Sucre 2126', 33, 9, 'Hicimos un cambio de la cinta de freno por desgaste.'),
+                            (10, 33200, 'Cambio puerta cabina', 'Rep. de la india', 31, 10, 'Hicimos un cambio de la puerta de cabina del ascensor para modernizar el mismo.'),
+                            (11, 10000, 'Cambio de cinta de freno', 'Humboldt', 11, 11, 'Hicimos un cambio de la cinta de freno por desgaste.'),
+                            (12, 41500, 'Cambio de motor', 'Conde', 7, 12, 'Hicimos un cambio de motor en el ascensor por fallos de este.'),
+                            (13, 10000, 'Cambio de cinta de freno', 'Monroe', 21, 13, 'Hicimos un cambio de la cinta de freno por desgaste.'),
+                            (14, 41500, 'Cambio de motor', 'Moldes', 20, 14, 'Hicimos un cambio de motor en el ascensor por fallos de este.'),
+                            (15, 10000, 'Cambio de cinta de freno', 'Obligado 1808', 23, 15, 'Hicimos un cambio de la cinta de freno por desgaste.');
+                  
+                  
+insert into pagos_bonos (id_pago_bono, precio, nombre_cliente, id_cliente, id_fecha, descripcion)    
+values					(1, 15000, 'Nicaragua', 22, 1, 'Este es un pago de bono mensual por prestar nuestros servicios.'),
+						(2, 18000, 'Amenabar', 1, 2, 'Este es un pago de bono mensual por prestar nuestros servicios.'),
+                        (3, 8000, 'Araoz', 2, 3, 'Este es un pago de bono mensual por prestar nuestros servicios.'),
+                        (4, 17000, 'Arcos', 3, 4, 'Este es un pago de bono mensual por prestar nuestros servicios.'),
+                        (5, 43000, 'Jockey club', 19, 5, 'Este es un pago de bono mensual por prestar nuestros servicios.'),
+                        (6, 15000, 'Zabala', 36, 6, 'Este es un pago de bono mensual por prestar nuestros servicios.'),
+                        (7, 15000, 'Sucre 2004', 32, 7, 'Este es un pago de bono mensual por prestar nuestros servicios.'),
+                        (8, 7500, 'Ocampo', 26, 8, 'Este es un pago de bono mensual por prestar nuestros servicios.'),
+                        (9, 10000, 'Sucre 2126', 33, 9, 'Este es un pago de bono mensual por prestar nuestros servicios.'),
+                        (10, 13990, 'Rep. de la india', 31, 10, 'Este es un pago de bono mensual por prestar nuestros servicios.'),
+                        (11, 12000, 'Humboldt', 11, 11, 'Este es un pago de bono mensual por prestar nuestros servicios.'),
+                        (12, 15000, 'Conde', 7, 12, 'Este es un pago de bono mensual por prestar nuestros servicios.'),
+                        (13, 13250, 'Monroe', 21, 13, 'Este es un pago de bono mensual por prestar nuestros servicios.'),
+                        (14, 11550, 'Moldes', 20, 14, 'Este es un pago de bono mensual por prestar nuestros servicios.'),
+                        (15, 21000, 'Obligado 1808', 23, 15, 'Este es un pago de bono mensual por prestar nuestros servicios.');
+
+
+insert into gastos_nuestra_empresa (id_gasto_empresa, id_fecha, id_receptor, producto, cantidad)   
+values                            (1, 1, 2, 'motor de ascensor', 37000),									
+								  (2, 2, 3, 'puerta de cabina', 25200),
+                                  (3, 3, 6, 'herramientas varias', 6000),
+                                  (4, 4, 10, 'cinta de freno', 8000),
+                                  (5, 5, 1, 'espejo de ascensor', 15000),
+                                  (6, 6, 2, 'herramientas varias', 7000),
+                                  (7, 7, 5,  'cinta de freno',8000),
+                                  (8, 8, 6, 'panel de botones', 10000),
+                                  (9, 9, 8, 'herramientas varias', 5000),
+                                  (10, 10, 9, 'cinta de freno', 7000),
+                                  (11, 11, 4, 'panel de botones', 10000),
+                                  (12, 12, 4, 'panel de botones', 10000),
+                                  (13, 13, 10, 'cinta de freno', 6000),
+                                  (14, 14, 1, 'panel de botones', 9200),
+                                  (15, 15, 2, 'motor de ascensor', 37000);
