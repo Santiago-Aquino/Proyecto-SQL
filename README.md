@@ -1,6 +1,6 @@
 ## 🚀 Sobre mi
 
-Hola Buenas! Mi nombre es Santiago Aquino y soy Desarrollador Full Stack
+Hola Buenas! Mi nombre es Santiago Aquino y soy Desarrollador Backend
 
 ---
 
